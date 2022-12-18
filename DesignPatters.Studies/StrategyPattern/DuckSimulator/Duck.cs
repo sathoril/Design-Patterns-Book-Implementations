@@ -1,6 +1,6 @@
-using DesignPatters.Studies.DuckRefactoredClasses;
+using DesignPatters.Studies.StrategyPattern.DuckSimulator.Strategies;
 
-namespace DesignPatters.Studies.DuckClasses;
+namespace DesignPatters.Studies.StrategyPattern.DuckSimulator;
 
 // This is the Duck Super Class. This is the Context on StrategyPattern
 public abstract class Duck

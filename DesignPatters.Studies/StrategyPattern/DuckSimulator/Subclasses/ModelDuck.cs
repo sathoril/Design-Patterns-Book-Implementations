@@ -1,6 +1,6 @@
-using DesignPatters.Studies.DuckRefactoredClasses;
+using DesignPatters.Studies.StrategyPattern.DuckSimulator.Strategies;
 
-namespace DesignPatters.Studies.DuckClasses.Subclasses;
+namespace DesignPatters.Studies.StrategyPattern.DuckSimulator.Subclasses;
 
 public class ModelDuck : Duck
 {

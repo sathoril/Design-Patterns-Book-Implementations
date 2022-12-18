@@ -1,4 +1,4 @@
-namespace DesignPatters.Studies.DuckRefactoredClasses.Behaviours;
+namespace DesignPatters.Studies.StrategyPattern.DuckSimulator.Strategies.ConcreteStrategies.Quacks;
 
 /// <summary>
 /// This is the ConcreteStrategy, this class implements the Strategy IQuackBehaviour, in this case, are used for Ducks that instead of Quack, do a Squeak soung, like Rubber Ducks.

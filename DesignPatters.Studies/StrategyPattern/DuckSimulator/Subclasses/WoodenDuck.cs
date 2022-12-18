@@ -1,8 +1,6 @@
-using DesignPatters.Studies.DuckRefactoredClasses;
-using DesignPatters.Studies.DuckRefactoredClasses.Behaviours;
-using DesignPatters.Studies.DuckRefactoredClasses.Behaviours.Fly;
+using DesignPatters.Studies.StrategyPattern.DuckSimulator.Strategies;
 
-namespace DesignPatters.Studies.DuckClasses.Subclasses;
+namespace DesignPatters.Studies.StrategyPattern.DuckSimulator.Subclasses;
 
 // This is a Subclass of Duck, a Duck that is made from Wood
 public class WoodenDuck : Duck
