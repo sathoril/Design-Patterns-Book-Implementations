@@ -3,7 +3,7 @@ namespace DesignPatters.Studies.MazeObjects;
 public class Room : MapSite
 {
     public int RoomNumber { get; }
-    private Dictionary<Direction, MapSite> Sides { get; set; } = new();
+    public Dictionary<Direction, MapSite> Sides { get; set; } = new();
     
     public Room(int roomNumber)
     {
@@ -17,6 +17,11 @@ public class Room : MapSite
 
     public void SetSide(Direction direction, MapSite mapSite)
     {
+        if (Sides.GetValueOrDefault(direction) != null)
+        {
+            Sides.Remove(direction);
+        }
+        
         Sides.Add(direction, mapSite);
     }
 }

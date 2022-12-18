@@ -7,7 +7,7 @@ public class Maze
         
     }
 
-    private Dictionary<int, Room> Rooms { get; set; } = new();
+    public Dictionary<int, Room> Rooms { get; set; } = new();
 
     public void AddRoom(Room room)
     {

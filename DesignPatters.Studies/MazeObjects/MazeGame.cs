@@ -1,4 +1,5 @@
 using DesignPatters.Studies.CreationalPatterns.AbstractFactory;
+using DesignPatters.Studies.CreationalPatterns.BuilderPattern;
 
 namespace DesignPatters.Studies.MazeObjects;
 
@@ -48,5 +49,14 @@ public class MazeGame
         room2.SetSide(Direction.West, door);
 
         return maze;
+    }
+
+    public Maze CreateMazeWithBuilder(MazeBuilder builder)
+    {
+        builder.BuildMaze();
+        builder.BuildRoom(1);
+        builder.BuildRoom(2);
+        builder.BuildDoor(1, 2);
+        return builder.GetMaze();
     }
 }
