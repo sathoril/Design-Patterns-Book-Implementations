@@ -2,6 +2,9 @@ using DesignPatters.Studies.ObserverPattern.Interfaces;
 
 namespace DesignPatters.Studies.ObserverPattern;
 
+/// <summary>
+/// Concrete Subject
+/// </summary>
 public class WeatherData : ISubject
 {
     public WeatherData()

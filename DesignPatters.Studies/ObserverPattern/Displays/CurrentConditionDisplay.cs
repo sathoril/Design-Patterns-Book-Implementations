@@ -2,6 +2,9 @@ using DesignPatters.Studies.ObserverPattern.Interfaces;
 
 namespace DesignPatters.Studies.ObserverPattern;
 
+/// <summary>
+/// Concrete Observer
+/// </summary>
 public class CurrentConditionDisplay : IObserver, IDisplayElement
 {
     private float Temperature;

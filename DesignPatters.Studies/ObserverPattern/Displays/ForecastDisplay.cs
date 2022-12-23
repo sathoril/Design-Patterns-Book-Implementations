@@ -2,6 +2,9 @@ using DesignPatters.Studies.ObserverPattern.Interfaces;
 
 namespace DesignPatters.Studies.ObserverPattern;
 
+/// <summary>
+/// Concrete Observer
+/// </summary>
 public class ForecastDisplay : IObserver, IDisplayElement
 {
     private float currentPressure = 29.92f;  

@@ -2,6 +2,9 @@ using DesignPatters.Studies.ObserverPattern.Interfaces;
 
 namespace DesignPatters.Studies.ObserverPattern;
 
+/// <summary>
+/// Concrete Observer
+/// </summary>
 public class StatisticsDisplay : IObserver, IDisplayElement
 {
     private float maxTemp = 0.0f;
