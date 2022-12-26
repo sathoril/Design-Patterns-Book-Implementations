@@ -1,4 +1,5 @@
 ﻿using DesignPatters.Studies.DecoratorPattern;
+using DesignPatters.Studies.FactoryPattern;
 using DesignPatters.Studies.ObserverPattern;
 using DesignPatters.Studies.StrategyPattern;
 
@@ -11,6 +12,7 @@ while (true)
     Console.WriteLine("1 - StrategyPattern  - MedievalGame \n");
     Console.WriteLine("2 - ObserverPattern  - Weather-O-Rama \n");
     Console.WriteLine("3 - DecoratorPattern - StarbuzzCoffee \n");
+    Console.WriteLine("4 - FactoryPattern   - PizzaStore \n");
     
     var chosenPattern = Console.ReadLine();
     switch (chosenPattern)
@@ -29,6 +31,10 @@ while (true)
             break;
         case "3":
             DecoratorPatternDemo.RunStarbuzzCoffeeDemo();
+            Console.WriteLine("\n");
+            break;
+        case "4":
+            FactoryPatternDemo.RunPizzaStoreDemo();
             Console.WriteLine("\n");
             break;
         default:
